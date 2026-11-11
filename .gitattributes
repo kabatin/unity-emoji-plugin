@@ -1,0 +1,9 @@
+# 生成ファイル（emoji-data.txt から生成）。言語統計と差分から外す
+UnityProject/Assets/NativeEmoji/Runtime/EmojiCodepointTables.cs linguist-generated=true
+
+# Unity が生成するメタファイル
+*.meta linguist-generated=true
+
+# バイナリとして扱う
+*.bundle binary
+*.png binary

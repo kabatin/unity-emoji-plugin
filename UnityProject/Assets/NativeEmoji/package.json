@@ -1,0 +1,33 @@
+{
+  "name": "com.kabatin.native-emoji",
+  "version": "1.0.0",
+  "displayName": "Native Emoji for TextMeshPro",
+  "description": "TextMeshPro の絵文字を OS のネイティブ API で実行時レンダリングする。絵文字画像を同梱しないため、ビルドサイズが増えず再配布の問題も避けられる。導入するだけで全 TMP テキストに効く（コンポーネント不要）。\n\nRenders emoji in TextMeshPro by asking the OS to draw them at runtime, instead of shipping an emoji sprite sheet.",
+  "unity": "6000.3",
+  "documentationUrl": "https://github.com/kabatin/unity-emoji-plugin",
+  "changelogUrl": "https://github.com/kabatin/unity-emoji-plugin/blob/main/UnityProject/Assets/NativeEmoji/CHANGELOG.md",
+  "licensesUrl": "https://github.com/kabatin/unity-emoji-plugin/blob/main/LICENSE",
+  "keywords": [
+    "emoji",
+    "textmeshpro",
+    "tmp",
+    "text",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Hiroshi Kabayama",
+    "url": "https://github.com/kabatin"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.unity.test-framework": "1.6.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "絵文字を並べたサンプルシーン",
+      "path": "Samples~/Demo"
+    }
+  ]
+}

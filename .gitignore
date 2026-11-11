@@ -1,0 +1,42 @@
+# Unity が生成するもの
+UnityProject/Temp*
+UnityProject/Library*
+UnityProject/Logs*
+UnityProject/Obj*
+UnityProject/.utmp
+UnityProject/.vscode
+UnityProject/UserSettings/
+UnityProject/UserSettings.meta
+
+# IDE プロジェクトファイル（Unity が自動生成する）
+*.csproj
+*.sln
+*.slnx
+*.user
+
+# テスト実行の生成物（Performance Testing パッケージ）
+UnityProject/Assets/Resources/PerformanceTestRun*.json
+UnityProject/Assets/Resources/PerformanceTestRun*.json.meta
+
+# ビルド出力
+UnityProject/Build/
+UnityProject/Builds/
+UnityProject/iOS/
+UnityProject/Android/
+*.apk
+*.aab
+*.ipa
+*.app
+UnityProject/*_BurstDebugInformation_DoNotShip/
+UnityProject/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# TextMesh Pro Essentials（Unity 提供のアセット。再配布しない）
+# Window > TextMeshPro > Import TMP Essential Resources でインポートする
+UnityProject/Assets/TextMesh Pro/
+UnityProject/Assets/TextMesh Pro.meta
+
+# 配布用の書き出し先
+dist/
+
+# OS
+*.DS_Store
